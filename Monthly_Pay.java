@@ -16,7 +16,7 @@ public class Monthly_Pay {
 		
 		System.out.format("%-25s %-8s %-1s", "Deductions ", "Amount", "\n");
 		System.out.format("%-25s %-8s %-1s", "Witholding Tax: ", gross*.15, "\n");
-		System.out.format("%-25s %-8s %-1s", "SSS Contribution: ", gross*.0365, "\n");	//Calculations
+		System.out.format("%-25s %-8s %-1s", "SSS Contribution: ", gross*.0363, "\n");	//Calculations
 		System.out.format("%-25s %-8s %-1s", "Medicare: ", gross*.0125, "\n");
 		System.out.format("%-25s %-8s %-1s", "Pagibig Contribution: ", "100.0", "\n");
 		
